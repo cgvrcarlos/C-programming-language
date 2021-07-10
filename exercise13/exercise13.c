@@ -14,9 +14,6 @@ main ()
 	
 	fahr = lower;
 	
-	/*Print Title*/
-	printf("**FAHRENHEIT-CELSIUS TABLE**\n\n");
-	
 	/*Print Header*/
 	printf("Fahrenheit\tCelsius\n");
 	
