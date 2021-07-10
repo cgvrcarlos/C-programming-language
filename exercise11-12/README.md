@@ -4,30 +4,36 @@ Run the ``Hello World`` program in your system. Experiment with leaving out part
 
 ## Solution
 
-`#include <stdio.h>
+```c
+#include <stdio.h>
 
 main()
 {
   printf("Hello World");
-}`
+}
+```
 
 In this example teh newline character `(\n)` is missing, This leaves the cursor at the end of the line.
 
-`#include <stdio.h>
+```c
+#include <stdio.h>
 
 main()
 {
   printf("Hello World)
-}`
+}
+```
 
 In the second example the semicolon is missinf after `printf()`. The compiler should recognize that the semicolon is missing and print the apropiate message.
 
-`#include <stdio.h>
+```c
+#include <stdio.h>
 
 main()
 {
   printf("Hello World´);
-}`
+}
+```
 
 In the third example the double quote `"` after `\n` is mistyped as a single quote. The single quote, along with the right parenthesis and the semicolon, is taken as part of the string. The compiler should recognize  this as an error and complain that a double quote is missing, that a right parenthesis is missing before a right brace, the string is too long, or that there is a newline character in a string.
 
