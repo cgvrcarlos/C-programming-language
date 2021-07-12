@@ -4,7 +4,7 @@ Modify the temperature conversion program to print the table in reverse order, t
 
 ## Solution
 
-The only modification is
+The only modification is:
 
 ```c
 for (fahr = 300; fahr >= 0; fahr = fahr - 20)
