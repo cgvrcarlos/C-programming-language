@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* Print Celsius-Fahrenheit table
- * for celsius = 0, 20, ..., 300*/
+	for celsius = 0, 20, ..., 300 */
 
 int main()
 {
