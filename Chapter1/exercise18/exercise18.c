@@ -23,8 +23,8 @@ main()
 			nl++;
 	}
 	
-	printf("Number of blanks: %d\n", nb);
-	printf("Number of tabs: %d\n", nt);
-	printf("Number of new lines: %d\n", nl);
+	printf("Number of blanks [%d]\n", nb);
+	printf("Number of tabs [%d]\n", nt);
+	printf("Number of new lines [%d]\n", nl);
 	
 }
